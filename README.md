@@ -46,7 +46,7 @@ The contents of the FASTA files depend on `-rt / --ret_type` according to the [E
 | `fasta_cds_na`         | CDS nucleotide FASTA |
 | `fasta_cds_aa`         | CDS protein FASTA    |
 
-## Retrieving speed 
+## Retrieval speed
 
 NCBI limits the rate at which the API can be used, so we have to take this into account when retrieving the information.
 The limit without the API key is 3 requests per second, with a personal API key 10 requests per second.
